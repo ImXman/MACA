@@ -30,7 +30,7 @@ def ensemble_labels(multi_labels=None):
         ensemble.append(ks[vs.index(max(vs))])
     return ensemble
 
-def KACA(ad=None, cell_markers=None,n_pcs=None,res=[1,2,3],n_neis = [5,10]):
+def MACA(ad=None, cell_markers=None,n_pcs=None,res=[1,2,3],n_neis = [5,10]):
     ##TF-IDF transformation
     X = ad.X.copy()
     if scipy.sparse.issparse(X):
