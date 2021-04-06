@@ -13,4 +13,4 @@ For combined ~647K single nuclei human heart data
 
 annotation through MACA takes 24 mins with NMI as 0.739 and ARI as 0.818 again authors' annotations. 
 
-see /test/MACA_parallel_comp.ipynb
+See /test/MACA_parallel_comp.ipynb
