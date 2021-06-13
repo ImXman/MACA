@@ -2,13 +2,13 @@
 MACA: Marker-based automatic cell-type annotation for single cell expression data
 
 ## Installment
-For a tutorial of MACA, see /test/MACA_tutorial.ipynb
+pip install MACA
 
 ## Tutorial for basic use of MACA
 See /Tutorial/Basic use of MACA/MACA_tutorial.ipynb
 
 ## Tutorial for integrated annotation
-See /Tutorial/Integrated annotation via MACA
+See /Tutorial/Integrated annotation via MACA/
 
 # Update 03/12/2021
 
