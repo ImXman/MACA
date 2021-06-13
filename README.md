@@ -2,7 +2,7 @@
 MACA: Marker-based automatic cell-type annotation for single cell expression data
 
 ## Installment
-pip install MACA
+pip install MACA-Python
 
 ## Tutorial for basic use of MACA
 See /Tutorial/Basic use of MACA/MACA_tutorial.ipynb
