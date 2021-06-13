@@ -1,7 +1,14 @@
 # MACA
 MACA: Marker-based automatic cell-type annotation for single cell expression data
 
+## Installment
 For a tutorial of MACA, see /test/MACA_tutorial.ipynb
+
+## Tutorial for basic use of MACA
+See /Tutorial/Basic use of MACA/MACA_tutorial.ipynb
+
+## Tutorial for integrated annotation
+See /Tutorial/Integrated annotation via MACA
 
 # Update 03/12/2021
 
@@ -13,4 +20,4 @@ For combined ~647K single nuclei human heart data
 
 annotation through MACA takes 24 mins with NMI as 0.739 and ARI as 0.818 against authors' annotations. 
 
-See /test/MACA_parallel_comp.ipynb
+See /Tutorial/Integrated annotation via MACA/MACA_integrated_annotation_humanheart.ipynb
