@@ -4,7 +4,7 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name="MACA",
+    name="MACA-Python",
     version="1.0.1",
     author="Yang Xu",
     author_email="yxu71@vols.utk.edu",
