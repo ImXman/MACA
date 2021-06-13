@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="MACA",
-    version="0.0.1",
+    version="1.0.1",
     author="Yang Xu",
     author_email="yxu71@vols.utk.edu",
     description="MACA: Marker-based automatic cell-type annotation for single cell expression data",
