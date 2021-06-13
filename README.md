@@ -10,11 +10,11 @@ See /Tutorial/Basic use of MACA/MACA_tutorial.ipynb
 ## Tutorial for integrated annotation
 See /Tutorial/Integrated annotation via MACA/
 
-    |--------|------------------------------|---MACA_integrated_annotation_humanheart.ipynb
+     |--------|------------------------------|---MACA_integrated_annotation_humanheart.ipynb
 
-    |--------|------------------------------|---MACA_integrated_annotation_humanpancreas.ipynb
+     |--------|------------------------------|---MACA_integrated_annotation_humanpancreas.ipynb
     
-    |--------|------------------------------|---MACA_integrated_annotation_humanPBMC.ipynb
+     |--------|------------------------------|---MACA_integrated_annotation_humanPBMC.ipynb
     
 
 # Update 03/12/2021
