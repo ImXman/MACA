@@ -17,6 +17,10 @@ See /Tutorial/Integrated annotation via MACA/
      |--------|------------------------------|---MACA_integrated_annotation_humanpancreas.ipynb
     
      |--------|------------------------------|---MACA_integrated_annotation_humanPBMC.ipynb
+     
+## Standardization of cell type annotation across COVID19 datasets via MACA
+
+![alt text](https://github.com/ImXman/MACA/blob/master/Tutorial/Integrated%20annotation%20via%20MACA/Figure%201.jpg?raw=true)
     
 
 # Update 03/12/2021
