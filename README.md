@@ -6,7 +6,9 @@ pip install MACA-Python
 
 ## Tutorial for basic use of MACA
 See /Tutorial/Basic use of MACA/
+
      |--------|------------------------------|---MACA_tutorial.ipynb
+     
 ## Tutorial for integrated annotation
 See /Tutorial/Integrated annotation via MACA/
 
