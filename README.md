@@ -1,15 +1,18 @@
 # MACA
 MACA: Marker-based automatic cell-type annotation for single cell expression data
 
-## Installment
-pip install MACA-Python
+## 1. Installment
+     
+     pip install scanpy ##install prerequisite 
+     
+     pip install MACA-Python
 
-## Tutorial for basic use of MACA
+## 2. Tutorial for basic use of MACA
 See /Tutorial/Basic use of MACA/
 
      |--------|------------------------------|---MACA_tutorial.ipynb
      
-## Tutorial for integrated annotation
+## 3. Tutorial for integrated annotation
 See /Tutorial/Integrated annotation via MACA/
 
      |--------|------------------------------|---MACA_integrated_annotation_humanheart.ipynb
@@ -18,7 +21,7 @@ See /Tutorial/Integrated annotation via MACA/
     
      |--------|------------------------------|---MACA_integrated_annotation_humanPBMC.ipynb
      
-## Standardization of cell type annotation across COVID19 datasets via MACA
+## 4. Standardization of cell type annotation across COVID19 datasets via MACA
 
 See /Tutorial/Integrated annotation via MACA/
 
