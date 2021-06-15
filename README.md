@@ -10,7 +10,7 @@ MACA: Marker-based automatic cell-type annotation for single cell expression dat
 ## 2. Tutorial for basic use of MACA
 See /Tutorial/Basic use of MACA/
 
-     |--------|------------------------------|---MACA_tutorial.ipynb
+     |--------|----------------|---MACA_tutorial.ipynb
      
 ## 3. Tutorial for integrated annotation
 See /Tutorial/Integrated annotation via MACA/
