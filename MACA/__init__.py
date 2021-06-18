@@ -32,7 +32,11 @@ def ensemble_labels(multi_labels=None):
         ensemble.append(ks[vs.index(max(vs))])
     return ensemble
 
-def singleMACA(ad=None, cell_markers=None,n_pcs=None,res=[1,2,3],n_neis = [5,10],freq=0.5):
+def singleMACA(ad=None, cell_markers=None,n_pcs=None,res=[1,2,3],n_neis = [5,10],freq=0.5,z=3):
+    #ad is anndata
+    ##cell_markers is the cell-type and marker dictionary
+    ##z: threshold of zscore. zscore>3 ~ p<0.001
+    
     ##TF-IDF transformation
     X = ad.X.copy()
     if scipy.sparse.issparse(X):
@@ -107,7 +111,7 @@ def singleMACA(ad=None, cell_markers=None,n_pcs=None,res=[1,2,3],n_neis = [5,10]
     ad.obsm['X_umap'] = embedding.iloc[:,:2].values
     
     ##create Label2
-    if n_pcs is not None:
+    if n_pcs is not None:##use pca to reduce dimension. in practice, MACA works better without using pca
         pca = PCA(n_components=n_pcs)
         scores = pca.fit_transform(labels.values)
         ad.obsm['Score']=scores
@@ -155,7 +159,7 @@ def singleMACA(ad=None, cell_markers=None,n_pcs=None,res=[1,2,3],n_neis = [5,10]
                         freqs = []
                         for j in range(sub_labels.shape[0]):
                             zscore=scipy.stats.zscore(sub_labels[j,:])
-                            orderi = np.array([g for g in range(sub_labels.shape[1])])[zscore>3].tolist()
+                            orderi = np.array([g for g in range(sub_labels.shape[1])])[zscore>z].tolist()
                             orderj = np.argsort(sub_labels[j,:])[::-1][:3].tolist()
                             a = [len(orderi),len(orderj)]
                             freqs += [orderi,orderj][a.index(max(a))]
@@ -197,7 +201,10 @@ def singleMACA(ad=None, cell_markers=None,n_pcs=None,res=[1,2,3],n_neis = [5,10]
     return ad, np.array(annotations)
     
 def gene2cell(ad=None, cell_markers=None):
+    ##convert gene expression matrix to cell-tyep score matrix 
     ##TF-IDF transformation
+    #ad is anndata
+    ##cell_markers is the cell-type and marker dictionary
     X = ad.X.copy()
     if scipy.sparse.issparse(X):
         X = X.todense()
@@ -260,7 +267,9 @@ def gene2cell(ad=None, cell_markers=None):
     print(new_labels.shape)
     return labels, new_labels
 
-def multiMACA(labels=None,new_labels=None):#,n_pcs=None,res=2,n_neis = 5):
+def multiMACA(labels=None,new_labels=None,z=3):#,n_pcs=None,res=2,n_neis = 5):
+    ##labels and new_labels are two outputs from gene2cell()
+    ##z: threshold of zscore. zscore>3 ~ p<0.001
     
     ad = anndata.AnnData(X=labels)
     ##create Label1
@@ -311,7 +320,7 @@ def multiMACA(labels=None,new_labels=None):#,n_pcs=None,res=2,n_neis = 5):
                 freqs = []
                 for j in range(sub_labels.shape[0]):
                     zscore=scipy.stats.zscore(sub_labels[j,:])
-                    orderi = np.array([g for g in range(sub_labels.shape[1])])[zscore>3].tolist()
+                    orderi = np.array([g for g in range(sub_labels.shape[1])])[zscore>z].tolist()
                     orderj = np.argsort(sub_labels[j,:])[::-1][:3].tolist()
                     a = [len(orderi),len(orderj)]
                     freqs += [orderi,orderj][a.index(max(a))]
