@@ -3,9 +3,13 @@ MACA: Marker-based automatic cell-type annotation for single cell expression dat
 
 ## 1. Installment
 MACA works anndata format and is compatible with pipeline analysis through scanpy
+
 Prerequisite
+
 Scanpy 1.6.0
+
 Anndata 0.7.5
+
      pip install scanpy, anndata ##install prerequisite 
      
      pip install MACA-Python ##it's the only version of MACA. We update installment once we update new MACA version
