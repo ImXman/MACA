@@ -6,7 +6,7 @@ While our manuscript is under review, if you are using our tool for your researc
 ## 1. Installment
 MACA works anndata format and is compatible with pipeline analysis through scanpy
 
-     pip install scanpy, anndata ##install prerequisite Scanpy 1.6.0 and Anndata 0.7.5
+     pip install scanpy, anndata, scikit-learn ##install prerequisite Scanpy 1.6.0 and Anndata 0.7.5
      
      pip install MACA-Python ##it's the only version of MACA. We update installment once we update new MACA version
 
