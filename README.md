@@ -49,6 +49,6 @@ See /Tutorial/Label transferring via MACA/
      
      See /Tutorial/Integrated annotation via MACA/MACA_integrated_annotation_humanheart.ipynb
 
-# Update 10/05/2021
+# Update 10/07/2021
 
      Marker identification function was added to identification robust differential markers across cell-types, and it is used for label transferring based on reference data
