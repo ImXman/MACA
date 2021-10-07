@@ -31,6 +31,14 @@ See /Tutorial/Integrated annotation via MACA/
      |--------|------------------------------|---MACA_integrated_annotation_COVID19.ipynb
 
 ![alt text](https://github.com/ImXman/MACA/blob/master/Tutorial/Integrated%20annotation%20via%20MACA/Figure%201.jpg?raw=true)
+
+## 5. Label transferring via MACA (Ongoing)
+
+See /Tutorial/Label transferring via MACA/
+
+     |--------|------------------------------|---MACA_transfer_annotation.ipynb
+
+![alt text](https://github.com/ImXman/MACA/blob/master/Tutorial/Integrated%20annotation%20via%20MACA/Figure%201.jpg?raw=true)
     
 
 # Update 03/12/2021
