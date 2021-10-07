@@ -39,6 +39,8 @@ See /Tutorial/Label transferring via MACA/
      MACA_transfer_annotation.ipynb
 
 ![alt text](https://github.com/ImXman/MACA/blob/master/Tutorial/Label%20transferring%20via%20MACA/Figure%202.jpg?raw=true)
+
+The 1st row shows MACA's annotations, and the 2nd row shows author's annotations. In the 3rd and 4th rows, cells are colored by study source and used as either reference or target data.
     
 
 # Update 03/12/2021
