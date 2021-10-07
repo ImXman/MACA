@@ -38,7 +38,7 @@ See /Tutorial/Label transferring via MACA/
 
      MACA_transfer_annotation.ipynb
 
-![alt text](https://github.com/ImXman/MACA/blob/master/Tutorial/Integrated%20annotation%20via%20MACA/Figure%201.jpg?raw=true)
+![alt text](https://github.com/ImXman/MACA/blob/master/Tutorial/Label%20transferring%20via%20MACA/Figure%202.jpg?raw=true)
     
 
 # Update 03/12/2021
