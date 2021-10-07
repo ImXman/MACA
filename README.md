@@ -54,3 +54,11 @@ The 1st row shows MACA's annotations, and the 2nd row shows author's annotations
 # Update 10/07/2021
 
      Marker identification function was added to identification robust differential markers across cell-types, and it is used for label transferring based on reference data
+     
+# Statement
+
+GPU-supported research has speeded up integrative discoveries across single-cell studies. However, access to a good graphic card for model training is not taken granted, especially in undeveloped and developing countries.
+
+We devote to make single-cell analysis accessible for most people, and MACA has been redesigned to perform integrative annotation for large datasets with an ordinary laptop. MACA annotates 1 million cells for XXX minutes, on a personal laptop with i7-8550U CPU, 16GB memory, and no GPU support.
+
+ 
