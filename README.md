@@ -51,4 +51,4 @@ See /Tutorial/Label transferring via MACA/
 
 # Update 10/05/2021
 
-     Marker identification function was added to robust differential markers across cell-types, and it is used for label transferring based on reference data
+     Marker identification function was added to identification robust differential markers across cell-types, and it is used for label transferring based on reference data
