@@ -13,22 +13,22 @@ MACA works anndata format and is compatible with pipeline analysis through scanp
 ## 2. Tutorial for basic use of MACA
 See /Tutorial/Basic use of MACA/
 
-     |--------|-----------------|---MACA_tutorial.ipynb
+     MACA_tutorial.ipynb
      
 ## 3. Tutorial for integrated annotation
 See /Tutorial/Integrated annotation via MACA/
 
-     |--------|------------------------------|---MACA_integrated_annotation_humanheart.ipynb
+     MACA_integrated_annotation_humanheart.ipynb
 
-     |--------|------------------------------|---MACA_integrated_annotation_humanpancreas.ipynb
+     MACA_integrated_annotation_humanpancreas.ipynb
     
-     |--------|------------------------------|---MACA_integrated_annotation_humanPBMC.ipynb
+     MACA_integrated_annotation_humanPBMC.ipynb
      
 ## 4. Standardization of cell type annotation across COVID19 datasets via MACA
 
 See /Tutorial/Integrated annotation via MACA/
 
-     |--------|------------------------------|---MACA_integrated_annotation_COVID19.ipynb
+     MACA_integrated_annotation_COVID19.ipynb
 
 ![alt text](https://github.com/ImXman/MACA/blob/master/Tutorial/Integrated%20annotation%20via%20MACA/Figure%201.jpg?raw=true)
 
@@ -36,7 +36,7 @@ See /Tutorial/Integrated annotation via MACA/
 
 See /Tutorial/Label transferring via MACA/
 
-     |--------|------------------------------|---MACA_transfer_annotation.ipynb
+     MACA_transfer_annotation.ipynb
 
 ![alt text](https://github.com/ImXman/MACA/blob/master/Tutorial/Integrated%20annotation%20via%20MACA/Figure%201.jpg?raw=true)
     
