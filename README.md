@@ -48,3 +48,7 @@ See /Tutorial/Label transferring via MACA/
      For combined ~647K single nuclei human heart data (Tucker et al., Circulation 2020 and Litviňuková et al., Nature 2020), annotation through MACA takes 24 mins with NMI as 0.739 and ARI as 0.818 against authors' annotations. 
      
      See /Tutorial/Integrated annotation via MACA/MACA_integrated_annotation_humanheart.ipynb
+
+# Update 10/05/2021
+
+     Marker identification function was added to robust differential markers across cell-types, and it is used for label transferring based on reference data
