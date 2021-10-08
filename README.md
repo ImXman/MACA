@@ -57,8 +57,8 @@ The 1st row shows MACA's annotations, and the 2nd row shows author's annotations
      
 # Statement
 
-GPU-supported research has speeded up integrative discoveries across single-cell studies. However, access to a good graphic card for model training is not taken granted, especially in undeveloped and developing countries.
+GPU-supported research has speeded up integrative discoveries across single-cell studies. However, access to a good graphic card for model training is not taken granted, especially in undeveloped and developing countries. Even renting a gpu on the cloud is costy for researchers.
 
-We devote to make integrative single-cell analysis accessible for most people, and MACA has been framed to perform label transferring for large datasets with an ordinary laptop. MACA annotates 1 million cells for 40 minutes, on a personal laptop with i7-8550U CPU, 16GB memory, and no GPU support.
+We devote to make integrative single-cell analysis cheap and accessible for most people, and MACA was framed to perform label transferring for large datasets with an ordinary laptop. MACA annotates 1 million cells for 40 minutes, on a personal laptop with i7-8550U CPU, 16GB memory, and no GPU support.
 
  
