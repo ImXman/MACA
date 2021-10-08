@@ -53,7 +53,7 @@ The 1st row shows MACA's annotations, and the 2nd row shows author's annotations
 
 # Update 10/07/2021
 
-     Marker identification function was added to identification robust differential markers across cell-types, and it is used for label transferring based on reference data
+     Marker identification function was added to identify robust differential markers across cell-types, and it is used for label transferring based on reference data
      
 # Statement
 
