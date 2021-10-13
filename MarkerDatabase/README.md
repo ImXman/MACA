@@ -11,7 +11,7 @@
 | --- | ----------- | --------- | ----
 | **Human pancreas** |  | 8 cell types | Baron et al, Cell Systems 2016
 | **Human PBMC** |  | 16 cell types  | Oetjen et al, JCI Insight 2018
-| **Human motor cortex** |  | XX cell types | Bakken et al, Nature 2021
+| **Human motor cortex** |  | 20 cell types | Bakken et al, Nature 2021
 | **Mouse brain** |  | 10 cell types  | Rosenberg et al, Science 2018
 
    **Note** : marker collections in the 2nd table is and should be only used for MACA but not other marker-based annotation methods.
