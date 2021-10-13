@@ -49,12 +49,10 @@ MACA was modified for parallel computing. For combined ~647K single nuclei human
 
 # Update 10/07/2021
 
-Marker identification function was added to identify robust differential markers across cell-types, and it is used for label transferring based on reference data
+Marker identification function was added to identify robust differential markers across cell-types, and it is used for label transferring based on reference data.
      
 # Statement
 
 GPU-supported research has speeded up integrative discoveries across single-cell studies. However, access to a good graphic card for model training is not taken granted, especially in undeveloped and developing countries. Even renting a gpu instance on the cloud is costy for researchers.
 
 We devote to make integrative single-cell analysis accessible for most people, and MACA is a cheap solution to label transferring for large single-cell data. MACA annotates 1 million cells for 40 minutes, on a personal laptop with i7-8550U CPU, 16GB memory, and no GPU support.
-
- 
