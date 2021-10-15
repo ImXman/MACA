@@ -9,10 +9,10 @@
 
 | Marker reference | Filename | Description | Publication
 | --- | ----------- | --------- | ----
-| **Human pancreas** | human_pancreas_baron_markers.csv | 8 cell types of human pancreatic islet | Baron et al, Cell Systems 2016
-| **Human PBMC** | human_pbmc_oetjen_markers.csv | 16 cell types of human peripheral blood mononuclear cells  | Oetjen et al, JCI Insight 2018
-| **Human motor cortex** | human_motorcortex_bakken_markers.csv | 20 cell types of human motor cortex | Bakken et al, Nature 2021
-**Human heart cell atlas** | human_heart_litviňuková_markers.csv | 9 major cell types of human heart | Litviňuková et al, Nature 2020
-| **Mouse brain** | mouse_brain_rosenberg_markers.csv | 10 cell types of mouse brain  | Rosenberg et al, Science 2018
+| **Human pancreas** | human_pancreas_baron_markers.csv | 8 cell types in human pancreatic islet | Baron et al, Cell Systems 2016
+| **Human PBMC** | human_pbmc_oetjen_markers.csv | 16 cell types in human peripheral blood mononuclear cells  | Oetjen et al, JCI Insight 2018
+| **Human motor cortex** | human_motorcortex_bakken_markers.csv | 20 cell types in human motor cortex | Bakken et al, Nature 2021
+**Human heart cell atlas** | human_heart_litviňuková_markers.csv | 9 major cell types in human heart | Litviňuková et al, Nature 2020
+| **Mouse brain** | mouse_brain_rosenberg_markers.csv | 10 cell types in mouse brain  | Rosenberg et al, Science 2018
 
    **Note** : marker collections in the 2nd table is and should be only used for MACA but not other marker-based annotation methods.
