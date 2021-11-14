@@ -9,7 +9,6 @@ import scipy
 #import random
 import anndata
 import collections
-import cosg as cosg
 import numpy as np
 import pandas as pd
 import scanpy as sc
@@ -17,7 +16,6 @@ import multiprocessing
 
 from sklearn.decomposition import PCA
 from sklearn.metrics import confusion_matrix
-#from sklearn.preprocessing import Normalizer
 from sklearn.feature_extraction.text import TfidfTransformer
 
 import warnings
@@ -124,10 +122,6 @@ def singleMACA(ad=None, cell_markers=None,n_pcs=None,res=[1,2,3],n_neis = [5,10]
     celltype_size = celltype_size.iloc[np.logical_and(celltype_size.values<=300,celltype_size.values>=3),:]
     print(labels.shape)
     
-    ##l2 normalize
-    #transformer = Normalizer().fit(labels)
-    #l2 = transformer.transform(labels)
-    
     ##create Label1
     labels1 = np.argmax(new_labels.values,axis=1)
     ad.obs['Label1'] = labels1
@@ -145,7 +139,7 @@ def singleMACA(ad=None, cell_markers=None,n_pcs=None,res=[1,2,3],n_neis = [5,10]
         scores = pca.fit_transform(labels.values)
         ad.obsm['Score']=scores
     else:
-        ad.obsm['Score']=labels.values#l2#
+        ad.obsm['Score']=labels.values
     
     label_list = np.zeros((ad.X.shape[0],len(res)*len(n_neis))).astype('str')
     indexs = 0
