@@ -1,7 +1,7 @@
 # MACA
 MACA: Marker-based automatic cell-type annotation for single cell expression data
 
-MACA was accepted by Bioinformatics and is under publication process. You can still cite our preprint (https://www.biorxiv.org/content/10.1101/2021.10.25.465734v1).
+MACA was accepted by Bioinformatics and is under publication process. You can still find our preprint (https://www.biorxiv.org/content/10.1101/2021.10.25.465734v1).
 
 ## 1. Installment
 MACA works anndata format and is compatible with pipeline analysis through scanpy
