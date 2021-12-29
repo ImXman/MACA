@@ -1,7 +1,7 @@
 # MACA
 MACA: Marker-based automatic cell-type annotation for single cell expression data
 
-MACA was published on Bioinformatics but a free preprint version can be found at https://www.biorxiv.org/content/10.1101/2021.10.25.465734v1 .
+MACA was published on Bioinformatics but a free preprint version can be found at https://www.biorxiv.org/content/10.1101/2021.10.25.465734v1.
 
 ## 1. Installment
 MACA works anndata format and is compatible with pipeline analysis through scanpy
