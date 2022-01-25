@@ -38,7 +38,7 @@ See /Tutorial/
 
      MACA_transfer_annotation_spatialbrain10xVisium.ipynb
 
-![alt text](https://github.com/ImXman/MACA/blob/master/Tutorial/Figure%202.jpg?raw=true)
+![alt text](https://github.com/ImXman/MACA/blob/master/Tutorial/Figure2.jpg?raw=true)
 
 # Update 03/12/2021
 
