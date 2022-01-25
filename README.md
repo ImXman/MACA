@@ -32,6 +32,14 @@ See /Tutorial/Integrated annotation via MACA/
 
 ![alt text](https://github.com/ImXman/MACA/blob/master/Tutorial/Integrated%20annotation%20via%20MACA/Figure%201.jpg?raw=true)
 
+## 5. Cell-type annotation for 10X Visium data
+
+See /Tutorial/
+
+     MACA_transfer_annotation_spatialbrain10xVisium.ipynb
+
+![alt text](https://github.com/ImXman/MACA/blob/master/Tutorial/Figure%202.jpg?raw=true)
+
 # Update 03/12/2021
 
 MACA was modified for parallel computing. For combined ~647K single nuclei human heart data (Tucker et al, Circulation 2020 and Litviňuková et al, Nature 2020), annotation through MACA takes 24 mins with NMI as 0.739 and ARI as 0.818 against authors' annotations.
