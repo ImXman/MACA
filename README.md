@@ -46,7 +46,7 @@ MACA was modified for parallel computing. For combined ~647K single nuclei human
 
 # Update 11/14/2021
 
-We established a new github repo named MASI (https://github.com/ImXman/MASI), which combines reference data and MACA for fast transfer learning.
+We established a new github repo named MASI (https://github.com/ImXman/MASI), which combines reference data and MACA for fast label transferring.
      
 # Statement
 
