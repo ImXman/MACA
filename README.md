@@ -40,7 +40,7 @@ See /Tutorial/
 
 ![alt text](https://github.com/ImXman/MACA/blob/master/Tutorial/Figure2.jpg?raw=true)
 
-### 6. Citation
+## 6. Citation
 Xu et al. "MACA: marker-based automatic cell-type annotation for single-cell expression data". <a href="https://academic.oup.com/bioinformatics/advance-article-abstract/doi/10.1093/bioinformatics/btab840/6478268?redirectedFrom=fulltext">Bioinformatics</a>
 
 # Update 03/12/2021
