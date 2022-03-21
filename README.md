@@ -54,8 +54,8 @@ We established a new github repo named MASI (https://github.com/hayatlab/MASI), 
 # Update 03/20/2022
 
 We uploaded ScTypeDB, a combination of PanglaoDB and CellMarker, as cell-type marker database, and tested its performance in cell-type annotation. ScTypeDB is compatible to annotation via MACA.
-     
-     Ianevski et al. "Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data". <a href="https://www.nature.com/articles/s41467-022-28803-w#Abs1">Nature Communications</a>
+
+Ianevski et al. "Fully-automated and ultra-fast cell-type identification using specific marker combinations from single-cell transcriptomic data". <a href="https://www.nature.com/articles/s41467-022-28803-w#Abs1">Nature Communications</a>
      
 # Statement
 
