@@ -47,11 +47,11 @@ Xu et al. "MACA: marker-based automatic cell-type annotation for single-cell exp
 
 MACA was modified for parallel computing. For combined ~647K single nuclei human heart data (Tucker et al, Circulation 2020 and Litviňuková et al, Nature 2020), annotation through MACA takes 24 mins with NMI as 0.739 and ARI as 0.818 against authors' annotations.
 
-## Update 11/14/2021
+### Update 11/14/2021
 
 We established a new github repo named MASI (https://github.com/hayatlab/MASI), which combines reference data and MACA for fast label transferring.
      
-## Update 03/20/2022
+### Update 03/20/2022
 
 We uploaded ScTypeDB, a combination of PanglaoDB and CellMarker, as cell-type marker database, and tested its performance in cell-type annotation. ScTypeDB is compatible to annotation via MACA.
 
